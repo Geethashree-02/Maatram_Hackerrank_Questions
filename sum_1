@@ -1,0 +1,8 @@
+a=['a','e','i','o','u','A','E','I','O','U']
+c=input()
+if c in a:
+    print("Vowel")
+elif isdigit(c)==1:
+    print("Not an alphabet")
+else:
+    print("Consonant")

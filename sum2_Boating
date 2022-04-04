@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+w = int(input())
+a = int(input())
+c = int(input())
+tot = a*75 + c*30
+if tot == w or tot < w:
+    print("Boat is stable")
+else:
+    print("Boat will sink")

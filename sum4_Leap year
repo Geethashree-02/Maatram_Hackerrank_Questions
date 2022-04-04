@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+yr = int(input())
+if yr%4 == 0:
+    print("1995 is a leap year")
+else:
+    print("1995 is not a leap year")
