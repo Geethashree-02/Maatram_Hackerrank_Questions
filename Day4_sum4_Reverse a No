@@ -1,0 +1,24 @@
+ """ Write a program to reverse a given number.
+ Sample Input 0
+
+987
+Sample Output 0
+
+789
+Sample Input 1
+
+1234
+Sample Output 1
+
+4321      """
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+Original_number = int(input())
+#print("The Original_number is :",Original_number)
+Temporary = Original_number
+Reverse = 0                          # 0+1=1-->10+2=12-->
+while(Temporary!=0): 
+    n = Temporary % 10                # 12 % 10 = 2 --10+(2+20) 
+    Reverse = Reverse*10 + n                     # 10->10+20=30
+    Temporary = Temporary//10               #121->12,
+   # i+=1
+print(Reverse)

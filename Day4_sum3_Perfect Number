@@ -1,0 +1,46 @@
+"""Write a program to identify if the number is Perfect number or not.
+Sample Input 0
+
+6
+Sample Output 0
+
+Perfect number
+Explanation 0
+
+The factors of a number are 1, 2, 3, 6 and the sum is 12. The double the number is 12.
+
+Therefore it is a perfect number. """
+#  ........    ***  PYTHON ***  .......
+"""
+user = int(input())
+sum = 0
+for i in range(1,user):
+    if(user%i==0):
+        sum = sum+i
+
+if(user==sum):
+    print("Perfect number")
+else:
+    print("Not Perfect number")"""
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+        int a= sc.nextInt(),sum=0;
+        for(int i=1;i<a;i++){
+            if(a%i==0){
+                sum=sum+i;
+            }
+        }
+        if(sum==a){
+            System.out.print("Perfect number");
+        }
+        else{
+            System.out.print("Not Perfect number");
+        }
+    }
+}
