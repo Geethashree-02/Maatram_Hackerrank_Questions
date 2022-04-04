@@ -1,0 +1,29 @@
+""" Find the maximum length-word in a given sentence and return the maximum-length word.
+ If multiple words are of same length return the first occuring word of maximum-length.
+
+ Sample Input 0
+
+Prabhu and Keerthi are good at cycling
+Sample Output 0
+
+Keerthi
+Sample Input 1
+
+A computer science portal for learn
+Sample Output 1
+
+computer
+Sample Input 2
+
+I am a good learner
+Sample Output 2
+
+learner   """
+
+str=list(map(str,input().split(' ')))
+max=1
+for i in str:
+    if len(i) > max:
+        max= len(i)
+        res= i
+print(res)

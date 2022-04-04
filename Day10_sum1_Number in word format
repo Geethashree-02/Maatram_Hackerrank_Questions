@@ -1,0 +1,22 @@
+""" Write a program to read the number and print the number digit by digit in word format.
+Sample Input 0
+
+659803 
+Sample Output 0
+
+six five nine eight zero three
+Sample Input 1
+
+12356
+Sample Output 1
+
+one two three five six  """
+
+user = input()
+a =""
+n_Letter = ["zero","one","two","three","four","five","six","seven","eight","nine"]
+for i in user:
+    if i == " ":
+        continue
+    a+=(n_Letter[int(i)]+" ")
+print(a)
