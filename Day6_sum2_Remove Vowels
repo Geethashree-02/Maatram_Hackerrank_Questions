@@ -1,0 +1,13 @@
+""" Write a Program to Remove vowels from a string.
+Sample Input 0
+
+My name is Robbin
+Sample Output 0
+
+My nm s Rbbn
+Sample Input 1
+
+welcome
+Sample Output 1
+
+wlcm """
