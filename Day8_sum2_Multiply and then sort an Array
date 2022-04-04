@@ -1,0 +1,40 @@
+""" To get N elements in an array and a number to be multiplied with the array elements.
+ To display the multiplied result in descending order. 
+
+ Constraints
+
+Positive Integers Only.
+
+Output Format
+
+Array elements in descending order after multiplied with the given number (space separated)
+
+Sample Input 0
+
+5
+40 10 30 15
+4
+Sample Output 0
+
+160 120 60 40 
+Sample Input 1
+
+5
+10 30 20 50 40
+2
+Sample Output 1
+
+100 80 60 40 20  """
+
+n=int(input())
+lst = list(map(int,input().split(" ")))
+num = int(input())
+res=[]
+for i in lst:
+    a=i*num
+    res.append(a)
+res.sort(reverse = True)
+for i in res:
+    print(i,end=" ")
+
+

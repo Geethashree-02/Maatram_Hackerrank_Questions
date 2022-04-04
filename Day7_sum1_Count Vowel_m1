@@ -1,0 +1,27 @@
+""" find the number of vowel letters in a word(consider both uppercase and lowercase). 
+Sample Input 0
+
+Alice
+Sample Output 0
+
+3
+Sample Input 1
+
+World
+Sample Output 1
+
+1
+Sample Input 2
+
+Student
+Sample Output 2
+
+2 """
+vcount =0
+v_str = str(input())
+v_str = v_str.lower()
+for i in v_str:
+    if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u'):
+        vcount = vcount+1
+        
+print(vcount)

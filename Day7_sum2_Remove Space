@@ -1,0 +1,28 @@
+""" write a program to remove spaces from a given string.
+Sample Input 0
+
+Hypertext Markup Language
+Sample Output 0
+
+HypertextMarkupLanguage
+Sample Input 1
+
+Hello World
+Sample Output 1
+
+HelloWorld
+Sample Input 2
+
+Data Structures
+Sample Output 2
+
+DataStructures   """
+
+str=input()
+str2=""
+for i in str:
+        if i == " ":
+            str2=str2
+        else:
+            str2+=i
+print(str2)

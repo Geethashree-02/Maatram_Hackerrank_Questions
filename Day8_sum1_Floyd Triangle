@@ -1,0 +1,27 @@
+""" Print the Floyd triangle as shown in the sample output.
+Sample Input 0
+
+3
+Sample Output 0
+
+1 
+2 3 
+4 5 6 
+Sample Input 1
+
+5
+Sample Output 1
+
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15   """
+
+user = int(input())
+N=1
+for i in range(1,user+1):
+    for j in range(1,i+1):
+        print(N,end=" ")
+        N=N+1
+    print()
