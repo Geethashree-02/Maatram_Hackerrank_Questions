@@ -1,0 +1,26 @@
+ """ Write a program to find whether the given number is a palindrome or not.
+ 
+ Sample Input 0
+
+2112
+Sample Output 0
+
+2112 is a palindrome.
+Sample Input 1
+
+1826
+Sample Output 1
+
+1826 is not a palindrome.  """
+
+user = int(input())
+rev = 0
+temp = user
+while(temp!=0):
+    digit = temp % 10
+    rev = rev*10 + digit
+    temp=temp//10
+if (rev==user):
+    print(user,"is a palindrome.")
+else:
+    print(user,"is not a palindrome.")
